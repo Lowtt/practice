@@ -18,7 +18,7 @@
     color: red;
 }
 #home_main_top{
-    height: 131px;
+    height: 130px;
 }
 #home_main_top>.search{
     position: relative;
@@ -44,12 +44,12 @@ input[type=search]{
     height: 16px;
     border: 1px solid
 } */
-#home_contain>ul{
+#home_topbar>ul{
     width: 900px;
     height: 50px;
     margin: 0 auto;
 }
-#home_contain>ul>li{
+#home_topbar>ul>li{
     width: 150px;
     height: 50px;
     float: left;
@@ -59,13 +59,13 @@ input[type=search]{
     font-size: 25px;
     font-weight: bold;
 }
-#home_contain>ul>li a{
+#home_topbar>ul>li a{
     display: inline-block;
     width: 150px;
     height: 50px;
     text-decoration: none;
 }
-#home_contain>ul>li .sanjiao{
+#home_topbar>ul>li .sanjiao{
     display:block;
     width:0;
     height:0;
@@ -74,7 +74,11 @@ input[type=search]{
     border-style:solid;
     border-color: black transparent transparent;
 }
-#home_contain>ul>li a:hover{
+#home_topbar>ul>li a:hover{
     background:blue;
     color: white;
+}
+#home_img{
+    height: 200px;
+    background: url("img/0.jpg");
 }
