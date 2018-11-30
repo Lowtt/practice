@@ -79,6 +79,7 @@ input[type=search]{
     color: white;
 }
 #home_img{
+    width: 100%;
     height: 200px;
     background: url("img/0.jpg");
 }
