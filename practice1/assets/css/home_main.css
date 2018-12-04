@@ -11,6 +11,7 @@
 }
 #home_main_top>img{
     margin:0 150px 0 ;
+    /* -ms-interpolation-mode: bicubic; */
     display: inline-block; 
 }
 #home_main_top span{
