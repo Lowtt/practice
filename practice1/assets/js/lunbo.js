@@ -2,7 +2,7 @@ var num=0;
 var timer=null;
 var timeout=null;
 // 设置鼠标悬浮在按钮切换事件
-$("#lunbo>ul li a").mouseenter(function(event){
+$(".groom>ul li a").mouseenter(function(event){
     //设置定时器前应先判断有没有定时器，有就清除
     if(timeout){
         clearTimeout(timeout);
@@ -28,7 +28,7 @@ timer=setInterval(changeTab,2000);
 function changgeMg(){
     var movePx=num*-300+"px";
     $(".inner").animate({"marginLeft":movePx},500);
-    $("#lunbo>ul li").eq(num).find("a").addClass("active").parent().siblings().find("a").removeClass("active");
+    $(".groom>ul li").eq(num).find("a").addClass("active").parent().siblings().find("a").removeClass("active");
 }
 //定时器函数    
 function changeTab(){            
